@@ -23,14 +23,13 @@ public class JumpingFrog{
 
 		while(distance>0){
 		    	distance-=distances[i%3];
-		    	System.out.println(distance);
 		    	if(distance>0){
 			totalTime+=times[i%3];
 		    	}i++;
 		    	hopCount++;
 		}
-        	System.out.println("Distance Travelled By Frog : " + travelledDistance + " Meters");
-        	System.out.println("No. of Hops : " + hopCount);
-		System.out.println("Total Time Taken By Frog : " + totalTime + " Seconds");
+       	 	System.out.println("Distance Travelled By Frog  : " + travelledDistance + " Meters");
+        	System.out.println("No. of Hops Made By Frog    : " + hopCount);
+		System.out.println("Total Time Taken By Frog    : " + totalTime + " Seconds");
 	}
 }
